@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="872C655B-71AE-9A6D-E238-2CA550E95255" name="Detalle_Usuario_P">
+<createdBy>multi</createdBy>
+<createdTime>2017-12-14 04:26:59 UTC</createdTime>
+<ownerDesignName>Entidad Relacion</ownerDesignName>
+<engineerTo>
+<item key="E2578E3A-C75F-E4B1-E298-C6514373A47D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_U_P" id="645B9992-76DA-21C7-45D6-55E0BE167837">
+<createdBy>multi</createdBy>
+<createdTime>2017-12-14 04:27:45 UTC</createdTime>
+<ownerDesignName>Entidad Relacion</ownerDesignName>
+<engineerTo>
+<item key="E2578E3A-C75F-E4B1-E298-C6514373A47D" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descripcion" id="CF761E0D-3CD3-66C4-92C4-88A246C58240">
+<createdBy>multi</createdBy>
+<createdTime>2017-12-14 04:27:54 UTC</createdTime>
+<ownerDesignName>Entidad Relacion</ownerDesignName>
+<engineerTo>
+<item key="E2578E3A-C75F-E4B1-E298-C6514373A47D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_usuario" id="827A8694-5C3D-2E23-1506-0169A5C58C75">
+<createdBy>multi</createdBy>
+<createdTime>2017-12-14 04:28:24 UTC</createdTime>
+<generatorID>A6135001-42DD-74B5-C2E5-2ECDDBA5957C</generatorID>
+<ownerDesignName>Entidad Relacion</ownerDesignName>
+<engineerTo>
+<item key="E2578E3A-C75F-E4B1-E298-C6514373A47D" value="true"/>
+</engineerTo>
+<referedAttribute>A3AF577C-CEC6-AAA1-3273-62E88EA24FE3</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_proyecto" id="89AFD929-C9F9-7CB4-1BE4-A3330BF788B5">
+<createdBy>multi</createdBy>
+<createdTime>2017-12-14 04:28:28 UTC</createdTime>
+<generatorID>42606CD0-E4C9-1ECA-B9CA-59993361E38D</generatorID>
+<ownerDesignName>Entidad Relacion</ownerDesignName>
+<engineerTo>
+<item key="E2578E3A-C75F-E4B1-E298-C6514373A47D" value="true"/>
+</engineerTo>
+<referedAttribute>F2912527-57AB-3778-5D31-22AC998E36E4</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F09A6A37-F11F-11AB-1AB0-545F1D30F341" name="Detalle_Usuario_P PK">
+<createdBy>multi</createdBy>
+<createdTime>2017-12-14 04:28:04 UTC</createdTime>
+<ownerDesignName>Entidad Relacion</ownerDesignName>
+<engineerTo>
+<item key="E2578E3A-C75F-E4B1-E298-C6514373A47D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>645B9992-76DA-21C7-45D6-55E0BE167837</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

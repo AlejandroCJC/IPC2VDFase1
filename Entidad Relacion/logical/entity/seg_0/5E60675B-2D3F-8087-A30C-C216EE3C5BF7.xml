@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5E60675B-2D3F-8087-A30C-C216EE3C5BF7" name="Administración">
+<createdBy>multi</createdBy>
+<createdTime>2017-12-14 04:15:28 UTC</createdTime>
+<ownerDesignName>Entidad Relacion</ownerDesignName>
+<engineerTo>
+<item key="E2578E3A-C75F-E4B1-E298-C6514373A47D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_admin" id="3F4CC93A-1D94-4B2F-DA41-4E5817C9AEA9">
+<createdBy>multi</createdBy>
+<createdTime>2017-12-14 04:15:42 UTC</createdTime>
+<ownerDesignName>Entidad Relacion</ownerDesignName>
+<engineerTo>
+<item key="E2578E3A-C75F-E4B1-E298-C6514373A47D" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Reportes" id="185AFFDA-02B7-FD18-9D74-8FE94876E140">
+<createdBy>multi</createdBy>
+<createdTime>2017-12-14 04:15:48 UTC</createdTime>
+<ownerDesignName>Entidad Relacion</ownerDesignName>
+<engineerTo>
+<item key="E2578E3A-C75F-E4B1-E298-C6514373A47D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descripcion" id="771F7D4C-DD64-58FD-3F10-243659F0D4AC">
+<createdBy>multi</createdBy>
+<createdTime>2017-12-14 04:15:58 UTC</createdTime>
+<ownerDesignName>Entidad Relacion</ownerDesignName>
+<engineerTo>
+<item key="E2578E3A-C75F-E4B1-E298-C6514373A47D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_usuario" id="603FDCA6-314D-65AE-2802-4D19173C3F48">
+<createdBy>multi</createdBy>
+<createdTime>2017-12-14 04:30:06 UTC</createdTime>
+<generatorID>EB5D8043-39A8-9B66-0FAA-466E905D9C6A</generatorID>
+<ownerDesignName>Entidad Relacion</ownerDesignName>
+<engineerTo>
+<item key="E2578E3A-C75F-E4B1-E298-C6514373A47D" value="true"/>
+</engineerTo>
+<referedAttribute>A3AF577C-CEC6-AAA1-3273-62E88EA24FE3</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_proyecto" id="C9019597-4868-CF7C-7A0F-DB09B1F048C2">
+<createdBy>multi</createdBy>
+<createdTime>2017-12-14 04:30:23 UTC</createdTime>
+<generatorID>3CB37A1C-8C6E-2463-BFC9-89564BE1ABA1</generatorID>
+<ownerDesignName>Entidad Relacion</ownerDesignName>
+<engineerTo>
+<item key="E2578E3A-C75F-E4B1-E298-C6514373A47D" value="true"/>
+</engineerTo>
+<referedAttribute>F2912527-57AB-3778-5D31-22AC998E36E4</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5B21AB42-2D13-2728-05E3-A68CBFFE5F74" name="Administración PK">
+<createdBy>multi</createdBy>
+<createdTime>2017-12-14 04:15:46 UTC</createdTime>
+<ownerDesignName>Entidad Relacion</ownerDesignName>
+<engineerTo>
+<item key="E2578E3A-C75F-E4B1-E298-C6514373A47D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3F4CC93A-1D94-4B2F-DA41-4E5817C9AEA9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

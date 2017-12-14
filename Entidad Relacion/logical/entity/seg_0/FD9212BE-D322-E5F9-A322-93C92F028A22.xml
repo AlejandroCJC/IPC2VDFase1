@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FD9212BE-D322-E5F9-A322-93C92F028A22" name="Habilidades">
+<createdBy>multi</createdBy>
+<createdTime>2017-12-14 04:11:10 UTC</createdTime>
+<ownerDesignName>Entidad Relacion</ownerDesignName>
+<engineerTo>
+<item key="E2578E3A-C75F-E4B1-E298-C6514373A47D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_habilidades" id="E82C9531-9276-DFC4-6448-DD404CF4B5F7">
+<createdBy>multi</createdBy>
+<createdTime>2017-12-14 04:11:22 UTC</createdTime>
+<ownerDesignName>Entidad Relacion</ownerDesignName>
+<engineerTo>
+<item key="E2578E3A-C75F-E4B1-E298-C6514373A47D" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Categorias" id="BAF23F78-32DA-FF2E-4A01-27463B137CB7">
+<createdBy>multi</createdBy>
+<createdTime>2017-12-14 04:11:36 UTC</createdTime>
+<ownerDesignName>Entidad Relacion</ownerDesignName>
+<engineerTo>
+<item key="E2578E3A-C75F-E4B1-E298-C6514373A47D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Descripcion" id="B472CC89-4938-BA3A-9FEA-FE7DB7216619">
+<createdBy>multi</createdBy>
+<createdTime>2017-12-14 04:11:45 UTC</createdTime>
+<ownerDesignName>Entidad Relacion</ownerDesignName>
+<engineerTo>
+<item key="E2578E3A-C75F-E4B1-E298-C6514373A47D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_karma" id="EA04744F-81C2-85F4-12A4-3C497449DEF4">
+<createdBy>multi</createdBy>
+<createdTime>2017-12-14 04:24:48 UTC</createdTime>
+<generatorID>C5785521-A803-3DA3-EB71-64CA9BBAB40A</generatorID>
+<ownerDesignName>Entidad Relacion</ownerDesignName>
+<engineerTo>
+<item key="E2578E3A-C75F-E4B1-E298-C6514373A47D" value="true"/>
+</engineerTo>
+<referedAttribute>0121617B-411C-F146-A454-1D01BAA02084</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="61C3FC40-364C-AFB4-0F6D-55BB0988D081" name="Habilidades PK">
+<createdBy>multi</createdBy>
+<createdTime>2017-12-14 04:12:51 UTC</createdTime>
+<ownerDesignName>Entidad Relacion</ownerDesignName>
+<engineerTo>
+<item key="E2578E3A-C75F-E4B1-E298-C6514373A47D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E82C9531-9276-DFC4-6448-DD404CF4B5F7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

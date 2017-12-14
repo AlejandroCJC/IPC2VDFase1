@@ -1,0 +1,123 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FFB2BDD3-3B31-80FB-2DC8-8633BBCF295F" name="Usuario">
+<createdBy>multi</createdBy>
+<createdTime>2017-12-14 04:06:35 UTC</createdTime>
+<ownerDesignName>Entidad Relacion</ownerDesignName>
+<engineerTo>
+<item key="E2578E3A-C75F-E4B1-E298-C6514373A47D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_usuario" id="A3AF577C-CEC6-AAA1-3273-62E88EA24FE3">
+<createdBy>multi</createdBy>
+<createdTime>2017-12-14 04:08:21 UTC</createdTime>
+<ownerDesignName>Entidad Relacion</ownerDesignName>
+<engineerTo>
+<item key="E2578E3A-C75F-E4B1-E298-C6514373A47D" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Correo" id="C25A1375-3C8D-1EFA-3157-A831AAEE1314">
+<createdBy>multi</createdBy>
+<createdTime>2017-12-14 04:08:28 UTC</createdTime>
+<ownerDesignName>Entidad Relacion</ownerDesignName>
+<engineerTo>
+<item key="E2578E3A-C75F-E4B1-E298-C6514373A47D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Fecha_Nac" id="DB7B45AD-68D7-FCB8-3D5F-D7878B0DA713">
+<createdBy>multi</createdBy>
+<createdTime>2017-12-14 04:08:52 UTC</createdTime>
+<ownerDesignName>Entidad Relacion</ownerDesignName>
+<engineerTo>
+<item key="E2578E3A-C75F-E4B1-E298-C6514373A47D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Contraseña" id="6A9D625F-0BF1-79BE-AEAB-8003CD8F87EB">
+<createdBy>multi</createdBy>
+<createdTime>2017-12-14 04:09:00 UTC</createdTime>
+<ownerDesignName>Entidad Relacion</ownerDesignName>
+<engineerTo>
+<item key="E2578E3A-C75F-E4B1-E298-C6514373A47D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NickName" id="4F70CED7-ACFD-0EA8-0013-AFAFD80D54C6">
+<createdBy>multi</createdBy>
+<createdTime>2017-12-14 04:09:19 UTC</createdTime>
+<ownerDesignName>Entidad Relacion</ownerDesignName>
+<engineerTo>
+<item key="E2578E3A-C75F-E4B1-E298-C6514373A47D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_asociacion" id="C574DE39-CD86-7A9D-B034-AC039C7781A0">
+<createdBy>multi</createdBy>
+<createdTime>2017-12-14 04:19:44 UTC</createdTime>
+<generatorID>D788399F-E36E-2A6D-1880-3D80D1396AEF</generatorID>
+<ownerDesignName>Entidad Relacion</ownerDesignName>
+<engineerTo>
+<item key="E2578E3A-C75F-E4B1-E298-C6514373A47D" value="true"/>
+</engineerTo>
+<referedAttribute>FA6D4122-94C9-3526-6152-F526E2686D21</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_habilidades" id="8017FC21-6727-3DAE-B6BC-222A7BC15F43">
+<createdBy>multi</createdBy>
+<createdTime>2017-12-14 04:21:09 UTC</createdTime>
+<generatorID>C75113EF-BF9F-8FAA-9ECD-E3FFF48A1A29</generatorID>
+<ownerDesignName>Entidad Relacion</ownerDesignName>
+<engineerTo>
+<item key="E2578E3A-C75F-E4B1-E298-C6514373A47D" value="true"/>
+</engineerTo>
+<referedAttribute>E82C9531-9276-DFC4-6448-DD404CF4B5F7</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_karma" id="95AC334A-A5B2-23C5-D248-9A1B589449F1">
+<createdBy>multi</createdBy>
+<createdTime>2017-12-14 04:22:03 UTC</createdTime>
+<generatorID>BFCDCB3C-8006-CAB9-D03D-EFA82944C8E3</generatorID>
+<ownerDesignName>Entidad Relacion</ownerDesignName>
+<engineerTo>
+<item key="E2578E3A-C75F-E4B1-E298-C6514373A47D" value="true"/>
+</engineerTo>
+<referedAttribute>0121617B-411C-F146-A454-1D01BAA02084</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="BC64869F-DECC-6E48-E1A3-A1BAE855B0BC" name="Usuario PK">
+<createdBy>multi</createdBy>
+<createdTime>2017-12-14 04:08:38 UTC</createdTime>
+<ownerDesignName>Entidad Relacion</ownerDesignName>
+<engineerTo>
+<item key="E2578E3A-C75F-E4B1-E298-C6514373A47D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A3AF577C-CEC6-AAA1-3273-62E88EA24FE3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

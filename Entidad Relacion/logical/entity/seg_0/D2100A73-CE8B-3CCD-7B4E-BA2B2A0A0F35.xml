@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D2100A73-CE8B-3CCD-7B4E-BA2B2A0A0F35" name="Pago">
+<createdBy>multi</createdBy>
+<createdTime>2017-12-14 04:14:28 UTC</createdTime>
+<ownerDesignName>Entidad Relacion</ownerDesignName>
+<engineerTo>
+<item key="E2578E3A-C75F-E4B1-E298-C6514373A47D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_pago" id="643C0310-3B83-767F-29B4-A78245BD941D">
+<createdBy>multi</createdBy>
+<createdTime>2017-12-14 04:14:38 UTC</createdTime>
+<ownerDesignName>Entidad Relacion</ownerDesignName>
+<engineerTo>
+<item key="E2578E3A-C75F-E4B1-E298-C6514373A47D" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Cantidad" id="BFA0C388-EDC7-C8BC-EAFB-CC8BEADED96B">
+<createdBy>multi</createdBy>
+<createdTime>2017-12-14 04:14:43 UTC</createdTime>
+<ownerDesignName>Entidad Relacion</ownerDesignName>
+<engineerTo>
+<item key="E2578E3A-C75F-E4B1-E298-C6514373A47D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Banco" id="F61CD02E-7C34-A557-9F8F-4A57EE5D0710">
+<createdBy>multi</createdBy>
+<createdTime>2017-12-14 04:14:54 UTC</createdTime>
+<ownerDesignName>Entidad Relacion</ownerDesignName>
+<engineerTo>
+<item key="E2578E3A-C75F-E4B1-E298-C6514373A47D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Descripcion" id="EC256904-766E-1E22-E051-276ED3F5B3BE">
+<createdBy>multi</createdBy>
+<createdTime>2017-12-14 04:15:02 UTC</createdTime>
+<ownerDesignName>Entidad Relacion</ownerDesignName>
+<engineerTo>
+<item key="E2578E3A-C75F-E4B1-E298-C6514373A47D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_usuario" id="EDA5817D-4D16-7897-A7DE-3AF0D36E4E79">
+<createdBy>multi</createdBy>
+<createdTime>2017-12-14 04:29:57 UTC</createdTime>
+<generatorID>9629FDC8-D691-5777-BE11-B10512FE0098</generatorID>
+<ownerDesignName>Entidad Relacion</ownerDesignName>
+<engineerTo>
+<item key="E2578E3A-C75F-E4B1-E298-C6514373A47D" value="true"/>
+</engineerTo>
+<referedAttribute>A3AF577C-CEC6-AAA1-3273-62E88EA24FE3</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5BC1CDE9-4E56-886D-5E8C-BA18C32B8F96" name="Pago PK">
+<createdBy>multi</createdBy>
+<createdTime>2017-12-14 04:14:52 UTC</createdTime>
+<ownerDesignName>Entidad Relacion</ownerDesignName>
+<engineerTo>
+<item key="E2578E3A-C75F-E4B1-E298-C6514373A47D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>643C0310-3B83-767F-29B4-A78245BD941D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Entidad Relacion" id="DADB5CA2-7DE7-6A95-65E3-95AADD6C300B" version="3.5">
+<createdBy>multi</createdBy>
+<createdTime>2017-12-14 04:05:56 UTC</createdTime>
+<ownerDesignName>Entidad Relacion</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>DADB5CA2-7DE7-6A95-65E3-95AADD6C300B</designId>
+</OSDM_Design>
